@@ -1,5 +1,6 @@
 package cn.edu.cdu.finalpro.dao;
 
+
 public class CompanyDao {
 	/**
 	 * @Copyright (C),2017,信息科学与工程学院软件工程系一班，
