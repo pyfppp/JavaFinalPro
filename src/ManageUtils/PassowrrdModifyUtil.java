@@ -1,6 +1,7 @@
 package ManageUtils;
 
-import java.security.MessageDigest;
+
+import java.security.NoSuchAlgorithmException;
 
 /**
  * @Copyright (C),2018,信息科学与工程学院软件工程系一班
@@ -19,6 +20,8 @@ public class PassowrrdModifyUtil {
 	 *
 	 */
 	public static boolean PasswordModiify(String companyName,String oldPassword,String newPassword) {
+	
+		
 		return true;
 	}
 }
