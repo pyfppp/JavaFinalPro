@@ -16,7 +16,7 @@ import java.sql.Statement;
  * 
  */
 
-public class DBUtiil {
+public class DBUtil {
 
 	// 连接数据库数据设置
 	private static String DRIVER = "com.mysql.jdbc.Driver";
