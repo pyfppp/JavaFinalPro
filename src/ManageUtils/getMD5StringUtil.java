@@ -3,7 +3,7 @@ package ManageUtils;
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import static MD5Utils.MD5_BytesArrayToString16Util.BytesToHexString;
+import static ManageUtils.BytesArrayToString16Util.BytesToHexString;
 
 /**
  * @Copyright (C),2018,信息科学与工程学院软件工程系一班
@@ -12,7 +12,7 @@ import static MD5Utils.MD5_BytesArrayToString16Util.BytesToHexString;
  * @Description 获取32位MD5字符串的封装工具类
  * 			
  */
-public class getMD5Util {
+public class getMD5StringUtil {
 	public static String getMD5Code(String originalString) {
 		String targetString = "";
 		try {

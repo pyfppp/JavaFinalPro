@@ -7,13 +7,13 @@ package CompanyManage;
  * @author 裴逸凡
  * 
  */
-	
 
 public interface CompanyManageDao {
-	
-	//企业用户个人信息修改
-	public boolean CompanyInfoModify(Company company);
-	
-	
-	
+
+	// 企业用户密码修改
+	public int CompanyPasswordModify(Company company, String oldPassword);
+
+	// 查询企业信息
+	public int CompanyInfoExhibition();
+
 }

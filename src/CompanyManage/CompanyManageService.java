@@ -7,5 +7,8 @@ package CompanyManage;
  * 
  */
 public interface CompanyManageService {
-	public boolean CompanyInfoModify(Company company);
+	public boolean CompanyPasswordModify(Company company);
+	
+	
+	public boolean CompanyInfoExhibition(Company company);
 }
