@@ -21,7 +21,7 @@ public class DBUtiil {
 	// 连接数据库数据设置
 	private static String DRIVER = "com.mysql.jdbc.Driver";
 	private static String USERNAME = "root";
-	private static String URL = "jdbc.mysql://localhost:3306/practice";
+	private static String URL = "jdbc:mysql://localhost:3306/practice";
 	private static String PASSWORD = "peiyifan";
 
 	/**
@@ -42,6 +42,7 @@ public class DBUtiil {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+		
 		return connection;
 	}
 
